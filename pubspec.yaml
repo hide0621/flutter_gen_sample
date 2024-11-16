@@ -1,0 +1,35 @@
+name: flutter_gen_sample
+description: "Type-safe asset management using flutter_gen"
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  assets:
+    - assets/images/check_mark.png
+
+  uses-material-design: true
+
+
