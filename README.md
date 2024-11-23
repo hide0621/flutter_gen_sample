@@ -2,6 +2,18 @@
 
 Type-safe asset management using flutter_gen
 
+## セットアップと生成
+
+以下のコマンドを使う
+
+`flutter pub add --dev build_runner flutter_gen_runner`
+
+ソースコード生成ツールの`build_runner`と**flutter_gen**のコードジェネレータである`flutter_gen_runner`を導入している
+
+コードの生成には以下のコマンドを使う
+
+`flutter packages pub run build_runner build`
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
