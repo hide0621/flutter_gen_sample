@@ -24,6 +24,8 @@ dev_dependencies:
 
 
   flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  flutter_gen_runner: ^5.8.0
 
 
 flutter:
